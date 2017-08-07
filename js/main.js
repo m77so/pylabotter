@@ -24,7 +24,7 @@ const checkInOut = function(d){
     if(d.length==0){
         $("#c").text("らぼいん");return 0;
     }
-    if( d[d.length-1][1]==undefined){
+    if( d[0][1]==null){
         $("#c").text("らぼりだ");
     }else{
         $("#c").text("らぼいん");
